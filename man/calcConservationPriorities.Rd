@@ -31,7 +31,7 @@ primary and secondary non-forest vegetation and therefore returns "crop", "past"
 "forestry", "primforest", "secdforest", "urban", "primother" and "secdother"
 }}
 
-\item{baseYearIPLCLand}{Whether the reference year for land conservation \code{"consvBaseYear"} also
+\item{baseYearIPLCLand}{Whether the reference year for land conservation \code{"consvBaseYear"}
 also is applied to IPLC land. The default is \code{FALSE} to avoid land-use change on IPLC land.}
 }
 \value{

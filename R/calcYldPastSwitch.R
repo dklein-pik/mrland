@@ -3,7 +3,7 @@
 #' Dummy file for regional pasture yield switch (f14_yld_past_switch)
 #'
 #' @return Dummy file for regional pasture yield switch
-#' @author Patrick Rein
+#' @author Alexandre Köberle, Patrick Rein
 #' @seealso \code{\link[madrat]{readSource}}, \code{\link[madrat]{calcOutput}}
 #' @importFrom magclass new.magpie
 #' @importFrom madrat toolGetMapping

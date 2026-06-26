@@ -16,5 +16,5 @@ Dummy file for regional pasture yield switch (f14_yld_past_switch)
 \code{\link[madrat]{readSource}}, \code{\link[madrat]{calcOutput}}
 }
 \author{
-Patrick Rein
+Alexandre Köberle, Patrick Rein
 }

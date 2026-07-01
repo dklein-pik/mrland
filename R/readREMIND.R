@@ -172,7 +172,7 @@ readREMIND <- function(subtype) {
                                   replacement = "R34BC-SSP2-PkBudg650-\\1",
                                   indicator = indicator))
     }
-    
+
     if (revision >= 4.132) {
       # Please refer to the 2026-R36M414/readme.txt for the source of the data
       fileList <- c("2026-R36M414/REMIND_generic_C_SSP1-NPi2025.mif",
@@ -189,7 +189,7 @@ readREMIND <- function(subtype) {
                                        replacement = "R36M414-\\1",
                                        indicator = indicator))
     }
-    
+
   }
 
   # shorten names of the REMIND scenarios

@@ -175,14 +175,14 @@ readREMIND <- function(subtype) {
     
     if (revision >= 4.132) {
       # Please refer to the 2026-R36M414/readme.txt for the source of the data
-      fileList <- c("REMIND/2026-R36M414/REMIND_generic_C_SSP1-NPi2025.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP1-PkBudg1000.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP1-PkBudg750.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP2-NPi2025.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP2-PkBudg1000.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP2-PkBudg750.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP3-NPi2025.mif",
-                    "REMIND/2026-R36M414/REMIND_generic_C_SSP3-PkBudg1000.mif")
+      fileList <- c("2026-R36M414/REMIND_generic_C_SSP1-NPi2025.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP1-PkBudg1000.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP1-PkBudg750.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP2-NPi2025.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP2-PkBudg1000.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP2-PkBudg750.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP3-NPi2025.mif",
+                    "2026-R36M414/REMIND_generic_C_SSP3-PkBudg1000.mif")
 
       out <- mbind(out, .readAndRename(fileList = fileList,
                                        pattern = "C_(SSP)",

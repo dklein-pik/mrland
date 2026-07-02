@@ -173,7 +173,7 @@ readREMIND <- function(subtype) {
                                   indicator = indicator))
     }
 
-    if (revision >= 4.132) {
+    if (revision >= 4.133) {
       # Please refer to the 2026-R36M414/readme.txt for the source of the data
       fileList <- c("2026-R36M414/REMIND_generic_C_SSP1-NPi2025.mif",
                     "2026-R36M414/REMIND_generic_C_SSP1-PkBudg1000.mif",
